@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.banner {
+    background-image: url(./img/space-nebula.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
+    display: flex;
+    flex-grow: 1;
+    height: 100vh;
+    padding: 0px;
+    margin: 0%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    justify-content: center;
+    align-items: flex-start;
+    color: whitesmoke;
+    gap: 32px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    gap: 32px;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 10%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    color: whitesmoke;
+    background-color: #101010;
+    gap: 32px;
+}
+
+.submit {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    color: whitesmoke;
+    gap: 32px;
+}
